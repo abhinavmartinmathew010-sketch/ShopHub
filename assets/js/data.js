@@ -21,7 +21,7 @@ if (!localStorage.getItem('products')) {
       price: 89.99,
       description: "Premium noise-cancelling wireless earbuds with 30h battery",
       // Keyword: earbuds
-      image: "https://loremflickr.com/600/400/earbuds",
+      image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D",
       stock: 15
     },
     {
@@ -79,5 +79,6 @@ if (!localStorage.getItem('cart')) {
 if (!localStorage.getItem('orders')) {
   localStorage.setItem('orders', JSON.stringify([]));
 }
+
 
 console.log("ShopHub initialized – stock, orders, and dynamic images ready!");
